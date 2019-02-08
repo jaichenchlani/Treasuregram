@@ -1,0 +1,23 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"
+        href="{% static 'style.css' %}"/>
+        <title>TreasureGram</title>
+    </head>
+    <body>
+        <h1>TreasureGram</h1>
+        {% for treasure in treasures %}
+            <p>{{ treasure.name }}</p>
+            {% if treasure.value > 0 %}
+                <p>{{ treasure.value }}</p>
+            {% else %}
+                <p>Unknown</p>
+            {% endif %}
+            <p>{{ treasure.material }}</p>
+            <p>{{ treasure.location }}</p>
+        {% endfor %}
+    </body>
+</html>

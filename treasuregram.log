@@ -117,3 +117,255 @@ Starting Execution...
 2019-02-08 03:56:34,607 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
 2019-02-08 03:56:40,934 views.py index DEBUG Start..
 2019-02-08 03:56:40,934 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-07 22:09:38,352 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-07 22:09:38,353 manage.py <module> DEBUG Starting main...
+2019-02-08 04:09:38,719 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:09:38,719 manage.py <module> DEBUG Starting main...
+2019-02-08 04:09:38,977 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:09:38,978 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:15:52,887 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:15:52,887 manage.py <module> DEBUG Starting main...
+2019-02-08 04:15:53,296 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:15:53,296 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:15:59,717 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:15:59,726 manage.py <module> DEBUG Starting main...
+2019-02-08 04:16:00,041 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:16:00,042 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:17:13,564 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:17:13,564 manage.py <module> DEBUG Starting main...
+2019-02-08 04:17:13,871 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:17:13,872 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:17:19,244 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:17:19,244 manage.py <module> DEBUG Starting main...
+2019-02-08 04:17:19,558 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:17:19,559 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:17:24,983 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:17:24,983 manage.py <module> DEBUG Starting main...
+2019-02-08 04:17:25,354 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:17:25,354 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:17:28,519 views.py index DEBUG Start..
+2019-02-08 04:17:28,519 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:17:28,524 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:17:38,190 views.py index DEBUG Start..
+2019-02-08 04:17:38,190 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:17:38,190 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:18:57,508 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:18:57,508 manage.py <module> DEBUG Starting main...
+2019-02-08 04:18:57,829 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:18:57,829 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:19:00,166 views.py index DEBUG Start..
+2019-02-08 04:19:00,166 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:19:00,170 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:19:33,049 views.py index DEBUG Start..
+2019-02-08 04:19:33,050 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:19:33,058 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:33:21,113 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:33:21,114 manage.py <module> DEBUG Starting main...
+2019-02-08 04:33:21,521 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:33:21,522 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:33:40,332 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:33:40,333 manage.py <module> DEBUG Starting main...
+2019-02-08 04:34:26,133 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:34:26,134 manage.py <module> DEBUG Starting main...
+2019-02-08 04:34:31,735 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:34:31,735 manage.py <module> DEBUG Starting main...
+2019-02-08 04:34:32,033 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:34:32,034 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:35:21,783 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:35:21,783 manage.py <module> DEBUG Starting main...
+2019-02-08 04:35:22,073 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:35:22,073 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:35:40,862 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:35:40,862 manage.py <module> DEBUG Starting main...
+2019-02-08 04:35:41,170 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:35:41,171 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:35:54,648 views.py index DEBUG Start..
+2019-02-08 04:35:54,648 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:35:54,655 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:36:48,446 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:36:48,446 manage.py <module> DEBUG Starting main...
+2019-02-08 04:36:48,721 views.py <module> DEBUG [<main_app.views.Treasure object at 0x1121592e8>, <main_app.views.Treasure object at 0x112159240>, <main_app.views.Treasure object at 0x1121590f0>]
+2019-02-08 04:36:48,723 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:36:48,723 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:36:55,871 views.py index DEBUG Start..
+2019-02-08 04:36:55,871 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:36:55,874 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-07 22:37:07,487 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-07 22:37:07,487 manage.py <module> DEBUG Starting main...
+2019-02-08 04:37:07,824 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:37:07,824 manage.py <module> DEBUG Starting main...
+2019-02-08 04:37:08,133 views.py <module> DEBUG [<main_app.views.Treasure object at 0x1048c6320>, <main_app.views.Treasure object at 0x1048c60f0>, <main_app.views.Treasure object at 0x1048c6278>]
+2019-02-08 04:37:08,135 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:37:08,135 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:37:12,851 views.py index DEBUG Start..
+2019-02-08 04:37:12,852 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:37:12,855 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:37:31,391 views.py index DEBUG Start..
+2019-02-08 04:37:31,391 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:37:31,392 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:37:33,004 views.py index DEBUG Start..
+2019-02-08 04:37:33,004 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:37:33,005 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:37:35,051 views.py index DEBUG Start..
+2019-02-08 04:37:35,051 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:37:35,052 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:37:44,508 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:37:44,508 manage.py <module> DEBUG Starting main...
+2019-02-08 04:37:44,801 views.py <module> DEBUG [<main_app.views.Treasure object at 0x10ac4d2e8>, <main_app.views.Treasure object at 0x10ac4d240>, <main_app.views.Treasure object at 0x10ac4d0f0>]
+2019-02-08 04:37:44,803 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:37:44,803 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:38:24,256 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:38:24,262 manage.py <module> DEBUG Starting main...
+2019-02-08 04:38:24,546 views.py <module> DEBUG [<main_app.views.Treasure object at 0x1063ed2e8>, <main_app.views.Treasure object at 0x1063ed240>, <main_app.views.Treasure object at 0x1063ed0f0>]
+2019-02-08 04:38:24,548 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:38:24,548 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:38:58,799 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:38:58,799 manage.py <module> DEBUG Starting main...
+2019-02-08 04:38:59,066 views.py <module> DEBUG [<main_app.views.Treasure object at 0x1111f92e8>, <main_app.views.Treasure object at 0x1111f9240>, <main_app.views.Treasure object at 0x1111f90f0>]
+2019-02-08 04:38:59,068 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:38:59,068 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:39:06,094 views.py index DEBUG Start..
+2019-02-08 04:39:06,094 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:39:06,098 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:39:06,188 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 10, in index
+    return render(request,'index.html',treasures)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/context.py", line 270, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than list.
+2019-02-08 04:39:56,040 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:39:56,040 manage.py <module> DEBUG Starting main...
+2019-02-08 04:39:56,338 views.py <module> DEBUG [<main_app.views.Treasure object at 0x10b746320>, <main_app.views.Treasure object at 0x10b746278>, <main_app.views.Treasure object at 0x10b746128>]
+2019-02-08 04:39:56,340 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:39:56,340 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:40:02,086 views.py index DEBUG Start..
+2019-02-08 04:40:02,086 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:40:02,089 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:42:26,635 views.py index DEBUG Start..
+2019-02-08 04:42:26,635 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:42:26,724 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 9, in index
+    logger.debug(str(render(request,'index.html',{"treasures": treasures})))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 8: 'for'. Looking for one of: empty, endfor.
+2019-02-08 04:43:04,884 views.py index DEBUG Start..
+2019-02-08 04:43:04,884 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:43:04,886 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:45:29,311 views.py index DEBUG Start..
+2019-02-08 04:45:29,317 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:45:29,318 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:45:52,653 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:45:52,653 manage.py <module> DEBUG Starting main...
+2019-02-08 04:45:52,975 views.py <module> DEBUG [<main_app.views.Treasure object at 0x103e802e8>, <main_app.views.Treasure object at 0x103e80240>, <main_app.views.Treasure object at 0x103e800f0>]
+2019-02-08 04:45:52,978 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:45:52,978 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:46:03,514 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:46:03,514 manage.py <module> DEBUG Starting main...
+2019-02-08 04:46:03,807 views.py <module> DEBUG [<main_app.views.Treasure object at 0x10e2a7320>, <main_app.views.Treasure object at 0x10e2a7278>, <main_app.views.Treasure object at 0x10e2a7128>]
+2019-02-08 04:46:03,809 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:46:03,809 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:46:14,340 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:46:14,340 manage.py <module> DEBUG Starting main...
+2019-02-08 04:46:14,672 views.py <module> DEBUG [<main_app.views.Treasure object at 0x10286c320>, <main_app.views.Treasure object at 0x10286c278>, <main_app.views.Treasure object at 0x10286c128>]
+2019-02-08 04:46:14,674 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:46:14,675 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:49:49,909 views.py index DEBUG Start..
+2019-02-08 04:49:49,915 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:49:49,922 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:49:51,780 views.py index DEBUG Start..
+2019-02-08 04:49:51,781 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:49:51,782 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-07 22:50:00,039 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-07 22:50:00,039 manage.py <module> DEBUG Starting main...
+2019-02-08 04:50:00,384 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:50:00,384 manage.py <module> DEBUG Starting main...
+2019-02-08 04:50:00,670 views.py <module> DEBUG [<main_app.views.Treasure object at 0x1080a9128>, <main_app.views.Treasure object at 0x1080a92b0>, <main_app.views.Treasure object at 0x1080a9160>]
+2019-02-08 04:50:00,672 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:50:00,672 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:50:04,073 views.py index DEBUG Start..
+2019-02-08 04:50:04,074 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:50:04,079 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:50:45,072 views.py index DEBUG Start..
+2019-02-08 04:50:45,073 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:50:45,074 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:50:46,724 views.py index DEBUG Start..
+2019-02-08 04:50:46,724 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:50:46,725 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:51:10,088 views.py index DEBUG Start..
+2019-02-08 04:51:10,089 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:51:10,090 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:53:02,748 views.py index DEBUG Start..
+2019-02-08 04:53:02,748 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:53:02,757 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:53:04,444 views.py index DEBUG Start..
+2019-02-08 04:53:04,444 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:53:04,445 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:53:12,694 views.py index DEBUG Start..
+2019-02-08 04:53:12,694 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:53:12,695 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-07 22:53:20,315 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-07 22:53:20,315 manage.py <module> DEBUG Starting main...
+2019-02-08 04:53:20,666 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 04:53:20,666 manage.py <module> DEBUG Starting main...
+2019-02-08 04:53:20,944 views.py <module> DEBUG [<main_app.views.Treasure object at 0x1086ba128>, <main_app.views.Treasure object at 0x1086ba2b0>, <main_app.views.Treasure object at 0x1086ba160>]
+2019-02-08 04:53:20,945 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 04:53:20,945 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 04:53:23,788 views.py index DEBUG Start..
+2019-02-08 04:53:23,788 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:53:23,794 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:53:46,186 views.py index DEBUG Start..
+2019-02-08 04:53:46,187 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:53:46,188 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:54:06,001 views.py index DEBUG Start..
+2019-02-08 04:54:06,002 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:54:06,003 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 04:55:01,333 views.py index DEBUG Start..
+2019-02-08 04:55:01,333 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 04:55:01,335 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
