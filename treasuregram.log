@@ -1,0 +1,119 @@
+2019-02-08 03:21:31,695 config.py <module> INFO 
+Starting Execution...
+2019-02-08 03:21:31,695 config.py <module> INFO Environment Variables:
+{'loggingLevel': 'high'}
+2019-02-07 21:21:43,736 config.py <module> INFO 
+Starting Execution...
+2019-02-07 21:21:43,737 config.py <module> INFO Environment Variables:
+{'loggingLevel': 'high'}
+2019-02-08 03:21:44,069 config.py <module> INFO 
+Starting Execution...
+2019-02-08 03:21:44,069 config.py <module> INFO Environment Variables:
+{'loggingLevel': 'high'}
+2019-02-08 03:22:54,723 config.py <module> INFO 
+Starting Execution...
+2019-02-08 03:22:54,735 config.py <module> INFO Environment Variables:
+{'loggingLevel': 'high'}
+2019-02-08 03:22:54,735 manage.py <module> DEBUG Start..
+2019-02-08 03:23:49,899 config.py <module> INFO 
+Starting Execution...
+2019-02-08 03:23:49,899 config.py <module> INFO Environment Variables:
+{'loggingLevel': 'high'}
+2019-02-08 03:23:49,899 manage.py <module> DEBUG Start..
+2019-02-08 03:24:00,713 config.py <module> INFO 
+Starting Execution...
+2019-02-08 03:24:00,713 config.py <module> INFO Environment Variables:
+{'loggingLevel': 'high'}
+2019-02-08 03:24:00,713 manage.py <module> DEBUG Start..
+2019-02-08 03:24:11,650 views.py index DEBUG Start..
+2019-02-08 03:24:11,650 views.py index DEBUG Request:
+<WSGIRequest: GET '/index/'>
+2019-02-08 03:24:12,265 views.py index DEBUG Start..
+2019-02-08 03:24:12,265 views.py index DEBUG Request:
+<WSGIRequest: GET '/index/'>
+2019-02-08 03:24:12,660 views.py index DEBUG Start..
+2019-02-08 03:24:12,660 views.py index DEBUG Request:
+<WSGIRequest: GET '/index/'>
+2019-02-08 03:24:33,505 views.py index DEBUG Start..
+2019-02-08 03:24:33,505 views.py index DEBUG Request:
+<WSGIRequest: GET '/index/'>
+2019-02-08 03:25:08,331 config.py <module> INFO 
+Starting Execution...
+2019-02-08 03:25:08,331 config.py <module> INFO Environment Variables:
+{'loggingLevel': 'high'}
+2019-02-08 03:25:08,332 manage.py <module> DEBUG Start..
+2019-02-08 03:25:12,134 views.py index DEBUG Start..
+2019-02-08 03:25:12,134 views.py index DEBUG Request:<WSGIRequest: GET '/index/'>
+2019-02-08 03:26:24,226 config.py <module> INFO 
+Starting Execution...
+2019-02-08 03:26:24,227 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:26:24,227 manage.py <module> DEBUG Start..
+2019-02-08 03:26:42,305 config.py <module> INFO Starting Execution...
+2019-02-08 03:26:42,305 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:26:42,305 manage.py <module> DEBUG Start..
+2019-02-08 03:26:52,144 views.py index DEBUG Start..
+2019-02-08 03:26:52,144 views.py index DEBUG Request:<WSGIRequest: GET '/index/'>
+2019-02-07 21:27:22,655 config.py <module> INFO Starting Execution...
+2019-02-07 21:27:22,656 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-07 21:27:22,656 manage.py <module> DEBUG Start..
+2019-02-08 03:27:22,993 config.py <module> INFO Starting Execution...
+2019-02-08 03:27:22,993 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:27:22,994 manage.py <module> DEBUG Start..
+2019-02-07 21:35:19,938 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-07 21:35:45,334 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-07 21:35:45,334 manage.py <module> DEBUG Start..
+2019-02-08 03:35:45,683 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:35:45,683 manage.py <module> DEBUG Start..
+2019-02-08 03:36:20,153 views.py index DEBUG Start..
+2019-02-08 03:36:20,153 views.py index DEBUG Request:<WSGIRequest: GET '/index/'>
+2019-02-08 03:41:39,126 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:41:39,126 manage.py <module> DEBUG Start..
+2019-02-08 03:41:46,807 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:41:46,807 manage.py <module> DEBUG Start..
+2019-02-08 03:42:16,196 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:42:16,196 manage.py <module> DEBUG Start..
+2019-02-08 03:42:30,103 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:42:30,103 manage.py <module> DEBUG Start..
+2019-02-08 03:42:30,415 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLPattern 'index/'>]
+2019-02-08 03:43:29,431 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:43:29,431 manage.py <module> DEBUG Starting main...
+2019-02-08 03:43:29,755 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLPattern 'index/'>]
+2019-02-08 03:43:52,658 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:43:52,658 manage.py <module> DEBUG Starting main...
+2019-02-08 03:43:52,962 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLPattern 'index/'>]
+2019-02-07 21:44:11,587 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-07 21:44:11,587 manage.py <module> DEBUG Starting main...
+2019-02-08 03:44:11,892 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:44:11,892 manage.py <module> DEBUG Starting main...
+2019-02-08 03:44:12,226 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLPattern 'index/'>]
+2019-02-08 03:44:38,341 views.py index DEBUG Start..
+2019-02-08 03:44:38,341 views.py index DEBUG Request:<WSGIRequest: GET '/index/'>
+2019-02-08 03:45:05,687 views.py index DEBUG Start..
+2019-02-08 03:45:05,687 views.py index DEBUG Request:<WSGIRequest: GET '/index/'>
+2019-02-08 03:49:21,167 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:49:21,169 manage.py <module> DEBUG Starting main...
+2019-02-08 03:49:21,493 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLPattern '/'>]
+2019-02-08 03:49:27,192 log.py log_response WARNING Not Found: /index/
+2019-02-08 03:49:34,393 log.py log_response WARNING Not Found: /
+2019-02-08 03:49:39,855 log.py log_response WARNING Not Found: /
+2019-02-08 03:49:46,507 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:49:46,507 manage.py <module> DEBUG Starting main...
+2019-02-08 03:49:46,799 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLPattern ''>]
+2019-02-08 03:49:50,998 views.py index DEBUG Start..
+2019-02-08 03:49:50,998 views.py index DEBUG Request:<WSGIRequest: GET '/'>
+2019-02-08 03:52:12,531 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:52:12,531 manage.py <module> DEBUG Starting main...
+2019-02-08 03:52:48,060 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:52:48,060 manage.py <module> DEBUG Starting main...
+2019-02-07 21:56:01,121 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-07 21:56:01,121 manage.py <module> DEBUG Starting main...
+2019-02-08 03:56:01,453 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:56:01,453 manage.py <module> DEBUG Starting main...
+2019-02-08 03:56:25,600 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:56:25,601 manage.py <module> DEBUG Starting main...
+2019-02-08 03:56:34,295 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 03:56:34,296 manage.py <module> DEBUG Starting main...
+2019-02-08 03:56:34,607 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 03:56:34,607 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 03:56:40,934 views.py index DEBUG Start..
+2019-02-08 03:56:40,934 views.py index DEBUG Request:<WSGIRequest: GET '/'>

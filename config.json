@@ -1,0 +1,9 @@
+{
+    "env": "dev",
+    "prodVariables": {
+        "loggingLevel": "low"
+    },
+    "devVariables": {
+        "loggingLevel": "high"
+    }
+}
