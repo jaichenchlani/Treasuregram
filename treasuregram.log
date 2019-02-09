@@ -1391,3 +1391,1021 @@ TypeError: context must be a dict rather than set.
 2019-02-09 14:14:28,503 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
 2019-02-09 14:14:31,523 views.py detail DEBUG Coffee Can,Acme, CA
 2019-02-09 14:14:31,551 log.py log_response WARNING Not Found: /2/static/images/coffee-can.jpeg
+2019-02-09 14:39:35,576 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:39:35,577 manage.py <module> DEBUG Starting main...
+2019-02-09 14:39:48,548 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:39:48,548 manage.py <module> DEBUG Starting main...
+2019-02-09 14:41:49,724 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:41:49,725 manage.py <module> DEBUG Starting main...
+2019-02-09 14:42:19,153 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:42:19,153 manage.py <module> DEBUG Starting main...
+2019-02-09 14:45:45,865 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:45:45,865 manage.py <module> DEBUG Starting main...
+2019-02-09 14:45:51,504 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:45:51,504 manage.py <module> DEBUG Starting main...
+2019-02-09 14:46:33,310 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:46:33,311 manage.py <module> DEBUG Starting main...
+2019-02-09 14:46:33,749 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 14:46:33,750 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:47:20,463 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:47:20,463 manage.py <module> DEBUG Starting main...
+2019-02-09 14:47:20,770 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 14:47:20,770 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:50:12,353 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:50:12,353 manage.py <module> DEBUG Starting main...
+2019-02-09 14:50:12,642 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 14:50:12,642 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:51:33,402 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:51:33,403 manage.py <module> DEBUG Starting main...
+2019-02-09 14:51:33,740 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 14:51:33,741 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:51:53,583 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:51:53,583 manage.py <module> DEBUG Starting main...
+2019-02-09 14:51:53,905 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 14:51:53,906 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:52:02,380 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:52:02,381 manage.py <module> DEBUG Starting main...
+2019-02-09 14:52:02,730 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 14:52:02,731 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:52:35,976 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:52:35,976 manage.py <module> DEBUG Starting main...
+2019-02-09 14:52:36,270 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 14:52:36,271 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:52:40,629 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:52:40,629 manage.py <module> DEBUG Starting main...
+2019-02-09 14:52:40,954 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 14:52:40,954 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:57:33,814 views.py detail DEBUG Coffee Can,Acme, CA
+2019-02-09 14:57:33,863 log.py log_response WARNING Not Found: /2/static/images/coffee-can.jpeg
+2019-02-09 14:57:42,008 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 14:58:24,036 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:58:24,037 manage.py <module> DEBUG Starting main...
+2019-02-09 14:58:24,343 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 14:58:24,343 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:59:30,514 log.py log_response ERROR Internal Server Error: /post_url/
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 24, in post_treasure
+    if form.isvalid():
+AttributeError: 'TreasureForm' object has no attribute 'isvalid'
+2019-02-09 14:59:59,497 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:59:59,497 manage.py <module> DEBUG Starting main...
+2019-02-09 14:59:59,828 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 14:59:59,828 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 15:00:05,148 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 15:00:28,619 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 15:00:28,656 log.py log_response WARNING Not Found: /deerfield_image
+2019-02-09 15:00:35,087 views.py detail DEBUG Jai,Deerfield
+2019-02-09 15:00:35,111 log.py log_response WARNING Not Found: /7/deerfield_image
+2019-02-09 15:00:43,391 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 15:00:43,427 log.py log_response WARNING Not Found: /deerfield_image
+2019-02-09 15:00:50,656 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 15:00:50,668 manage.py <module> DEBUG Starting main...
+2019-02-09 15:00:50,986 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 15:00:50,986 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 15:01:01,520 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 15:01:01,520 manage.py <module> DEBUG Starting main...
+2019-02-09 15:01:01,847 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 15:01:01,847 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 15:04:03,874 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 15:04:03,874 manage.py <module> DEBUG Starting main...
+2019-02-09 15:04:04,223 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 15:04:04,224 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 15:05:46,742 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 15:05:46,742 manage.py <module> DEBUG Starting main...
+2019-02-09 15:05:47,051 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 15:05:47,052 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 15:06:45,107 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 15:06:45,108 manage.py <module> DEBUG Starting main...
+2019-02-09 15:06:45,415 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 15:06:45,415 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 15:07:33,374 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 13, in index
+    form = TreasureForm()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/forms/models.py", line 285, in __init__
+    raise ValueError('ModelForm has no model class specified.')
+ValueError: ModelForm has no model class specified.
+2019-02-09 15:10:50,471 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 15:10:50,471 manage.py <module> DEBUG Starting main...
+2019-02-09 15:10:50,814 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 15:10:50,814 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 15:11:04,715 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 15:11:04,754 log.py log_response WARNING Not Found: /deerfield_image
+2019-02-09 15:11:21,949 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 15:11:21,981 log.py log_response WARNING Not Found: /deerfield_image
+2019-02-09 15:11:21,987 log.py log_response WARNING Not Found: /sfds
+2019-02-09 15:11:27,548 views.py detail DEBUG Jai1,Home
+2019-02-09 15:11:27,579 log.py log_response WARNING Not Found: /8/sfds
+2019-02-09 18:36:05,943 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:36:05,943 manage.py <module> DEBUG Starting main...
+2019-02-09 18:36:24,025 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:36:24,025 manage.py <module> DEBUG Starting main...
+2019-02-09 12:37:25,881 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:37:25,881 manage.py <module> DEBUG Starting main...
+2019-02-09 12:38:03,970 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:38:03,971 manage.py <module> DEBUG Starting main...
+2019-02-09 12:38:31,090 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:38:31,090 manage.py <module> DEBUG Starting main...
+2019-02-09 12:39:55,280 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:39:55,280 manage.py <module> DEBUG Starting main...
+2019-02-09 12:42:22,625 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:42:22,626 manage.py <module> DEBUG Starting main...
+2019-02-09 18:42:22,894 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 18:42:22,894 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:44:19,971 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:44:19,972 manage.py <module> DEBUG Starting main...
+2019-02-09 12:45:20,801 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:45:20,801 manage.py <module> DEBUG Starting main...
+2019-02-09 18:45:21,066 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 18:45:21,066 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:45:58,649 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:45:58,649 manage.py <module> DEBUG Starting main...
+2019-02-09 18:45:58,955 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 18:45:58,955 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:46:03,725 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:46:03,725 manage.py <module> DEBUG Starting main...
+2019-02-09 18:46:03,962 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 18:46:03,962 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:46:07,242 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:46:07,242 manage.py <module> DEBUG Starting main...
+2019-02-09 18:46:07,478 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 18:46:07,479 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 18:47:30,324 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:47:30,324 manage.py <module> DEBUG Starting main...
+2019-02-09 18:47:30,689 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 18:47:30,689 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 18:47:44,356 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:47:44,356 manage.py <module> DEBUG Starting main...
+2019-02-09 18:47:44,659 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 18:47:44,660 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 18:48:16,874 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:48:16,874 manage.py <module> DEBUG Starting main...
+2019-02-09 18:48:17,197 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 18:48:17,198 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 18:49:54,553 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:49:54,553 manage.py <module> DEBUG Starting main...
+2019-02-09 18:49:54,873 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 18:49:54,873 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 18:53:01,905 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:53:01,905 manage.py <module> DEBUG Starting main...
+2019-02-09 18:53:47,754 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:53:47,763 manage.py <module> DEBUG Starting main...
+2019-02-09 18:54:20,233 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:54:20,234 manage.py <module> DEBUG Starting main...
+2019-02-09 18:57:11,919 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:57:11,919 manage.py <module> DEBUG Starting main...
+2019-02-09 18:58:17,360 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:58:17,360 manage.py <module> DEBUG Starting main...
+2019-02-09 18:58:30,238 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:58:30,238 manage.py <module> DEBUG Starting main...
+2019-02-09 18:58:30,570 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 18:58:30,570 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 18:58:35,902 views.py detail DEBUG Jai1,Home
+2019-02-09 18:58:35,939 log.py log_response WARNING Not Found: /8/media/default.png
+2019-02-09 18:58:43,159 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 18:58:43,223 log.py log_response WARNING Not Found: /media/default.png
+2019-02-09 18:58:56,630 views.py detail DEBUG Gold Nuggets,Curly's Creek, NM
+2019-02-09 18:58:56,657 log.py log_response WARNING Not Found: /3/media/default.png
+2019-02-09 18:59:43,070 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:59:43,070 manage.py <module> DEBUG Starting main...
+2019-02-09 18:59:55,874 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 18:59:55,874 manage.py <module> DEBUG Starting main...
+2019-02-09 13:00:08,125 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:00:08,126 manage.py <module> DEBUG Starting main...
+2019-02-09 13:01:01,338 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:01:01,339 manage.py <module> DEBUG Starting main...
+2019-02-09 19:01:01,576 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:01:01,577 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:03:26,327 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:03:26,328 manage.py <module> DEBUG Starting main...
+2019-02-09 19:03:26,582 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:03:26,582 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:03:43,063 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:03:43,064 manage.py <module> DEBUG Starting main...
+2019-02-09 19:03:43,332 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:03:43,332 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:04:27,320 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:04:27,330 manage.py <module> DEBUG Starting main...
+2019-02-09 19:04:27,732 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:04:27,733 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:04:42,448 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:04:42,448 manage.py <module> DEBUG Starting main...
+2019-02-09 19:04:42,780 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:04:42,781 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:04:47,741 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:04:47,741 manage.py <module> DEBUG Starting main...
+2019-02-09 19:04:48,069 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:04:48,069 manage.py <module> DEBUG Starting main...
+2019-02-09 19:04:48,350 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:04:48,350 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:04:51,588 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:04:57,060 views.py detail DEBUG Coffee Can,Acme, CA
+2019-02-09 19:04:57,086 log.py log_response WARNING Not Found: /2/static/images/gold-nugget.jpeg
+2019-02-09 19:05:25,577 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:06:04,295 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:09:19,439 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:09:19,439 manage.py <module> DEBUG Starting main...
+2019-02-09 19:09:45,328 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:09:45,328 manage.py <module> DEBUG Starting main...
+2019-02-09 19:09:45,654 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:09:45,654 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:10:08,587 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:10:08,587 manage.py <module> DEBUG Starting main...
+2019-02-09 19:10:27,379 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:10:27,379 manage.py <module> DEBUG Starting main...
+2019-02-09 13:11:50,528 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:11:50,528 manage.py <module> DEBUG Starting main...
+2019-02-09 19:13:40,778 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:13:40,779 manage.py <module> DEBUG Starting main...
+2019-02-09 19:13:41,103 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:13:41,103 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:13:49,335 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:13:49,335 manage.py <module> DEBUG Starting main...
+2019-02-09 19:13:49,629 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:13:49,629 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:14:38,406 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:14:38,406 manage.py <module> DEBUG Starting main...
+2019-02-09 19:14:38,683 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:14:38,683 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:15:10,389 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:15:10,389 manage.py <module> DEBUG Starting main...
+2019-02-09 19:15:10,656 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:15:10,656 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:15:20,997 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:15:20,997 manage.py <module> DEBUG Starting main...
+2019-02-09 19:15:21,272 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:15:21,273 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:16:00,712 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:16:00,712 manage.py <module> DEBUG Starting main...
+2019-02-09 19:16:01,072 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:16:01,072 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:16:03,974 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:16:03,974 manage.py <module> DEBUG Starting main...
+2019-02-09 19:16:04,262 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:16:04,263 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:16:12,622 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:16:12,622 manage.py <module> DEBUG Starting main...
+2019-02-09 19:16:12,898 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:16:12,898 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:16:24,788 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:16:24,788 manage.py <module> DEBUG Starting main...
+2019-02-09 19:16:25,071 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:16:25,071 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:16:37,278 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:16:37,278 manage.py <module> DEBUG Starting main...
+2019-02-09 19:16:37,551 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:16:37,551 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:17:28,150 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:17:28,161 manage.py <module> DEBUG Starting main...
+2019-02-09 19:17:28,430 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:17:28,431 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:17:38,285 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:17:38,285 manage.py <module> DEBUG Starting main...
+2019-02-09 19:17:38,560 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:17:38,561 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:18:05,806 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:18:05,806 manage.py <module> DEBUG Starting main...
+2019-02-09 19:18:06,089 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:18:06,090 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:18:15,466 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:18:15,466 manage.py <module> DEBUG Starting main...
+2019-02-09 19:18:15,767 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:18:15,767 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:18:26,302 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:18:26,302 manage.py <module> DEBUG Starting main...
+2019-02-09 19:18:26,601 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:18:26,601 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:18:30,254 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:18:30,255 manage.py <module> DEBUG Starting main...
+2019-02-09 19:18:30,519 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:18:30,520 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:18:44,525 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:18:44,525 manage.py <module> DEBUG Starting main...
+2019-02-09 19:18:44,794 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:18:44,794 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:18:49,616 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:18:49,616 manage.py <module> DEBUG Starting main...
+2019-02-09 19:18:49,886 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:18:49,886 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:19:03,966 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:19:03,966 manage.py <module> DEBUG Starting main...
+2019-02-09 13:19:07,024 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:19:07,025 manage.py <module> DEBUG Starting main...
+2019-02-09 19:19:14,543 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:19:14,543 manage.py <module> DEBUG Starting main...
+2019-02-09 19:19:14,844 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:19:14,844 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:19:15,542 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:19:15,542 manage.py <module> DEBUG Starting main...
+2019-02-09 19:19:15,805 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:19:15,805 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:19:29,702 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:19:29,702 manage.py <module> DEBUG Starting main...
+2019-02-09 19:19:29,975 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:19:29,975 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:19:38,414 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:19:38,415 manage.py <module> DEBUG Starting main...
+2019-02-09 19:19:38,681 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:19:38,682 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:19:55,375 log.py log_response ERROR Internal Server Error: /admin/main_app/treasure/
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: main_app_treasure.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/contrib/admin/options.py", line 604, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1793, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/models/query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: main_app_treasure.user_id
+2019-02-09 13:22:01,022 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:22:01,022 manage.py <module> DEBUG Starting main...
+2019-02-09 19:22:01,282 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:22:01,282 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:22:42,551 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:22:42,551 manage.py <module> DEBUG Starting main...
+2019-02-09 19:22:42,811 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:22:42,812 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:22:53,017 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:22:53,017 manage.py <module> DEBUG Starting main...
+2019-02-09 19:22:53,286 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:22:53,286 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:23:25,198 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:23:25,198 manage.py <module> DEBUG Starting main...
+2019-02-09 19:23:25,530 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:23:25,531 manage.py <module> DEBUG Starting main...
+2019-02-09 19:23:25,814 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:23:25,814 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:27:56,359 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:27:56,361 manage.py <module> DEBUG Starting main...
+2019-02-09 19:27:56,686 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:27:56,687 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:29:52,408 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:29:52,413 manage.py <module> DEBUG Starting main...
+2019-02-09 19:29:52,697 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:29:52,697 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:29:59,106 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:29:59,116 manage.py <module> DEBUG Starting main...
+2019-02-09 19:29:59,434 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:29:59,434 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:30:21,407 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:30:21,407 manage.py <module> DEBUG Starting main...
+2019-02-09 19:31:23,122 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:32:02,848 log.py log_response ERROR Internal Server Error: /post_url/
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: main_app_treasure.user_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 25, in post_treasure
+    form.save(commit=True)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/forms/models.py", line 458, in save
+    self.instance.save()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: main_app_treasure.user_id
+2019-02-09 19:34:05,328 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:34:05,329 manage.py <module> DEBUG Starting main...
+2019-02-09 19:34:05,617 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:34:05,618 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:34:13,078 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:34:13,079 manage.py <module> DEBUG Starting main...
+2019-02-09 19:34:13,388 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:34:13,388 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:34:23,909 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:34:23,909 manage.py <module> DEBUG Starting main...
+2019-02-09 19:34:24,252 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>]
+2019-02-09 19:34:24,252 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:34:57,461 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:35:15,986 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:35:23,164 views.py detail DEBUG User ID: 9, Owner: jaichenchlani, Name: Silver, Value: 100.00, Material: Chandi, Location: Khandwa
+
+2019-02-09 19:35:23,191 log.py log_response WARNING Not Found: /9/static/images/silver.jpeg
+2019-02-09 19:35:52,624 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:38:18,071 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:38:18,072 manage.py <module> DEBUG Starting main...
+2019-02-09 19:38:33,119 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:38:33,120 manage.py <module> DEBUG Starting main...
+2019-02-09 19:40:02,341 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:40:02,341 manage.py <module> DEBUG Starting main...
+2019-02-09 19:41:16,056 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:41:16,056 manage.py <module> DEBUG Starting main...
+2019-02-09 19:41:16,359 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>]
+2019-02-09 19:41:16,360 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:41:42,397 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:41:42,398 manage.py <module> DEBUG Starting main...
+2019-02-09 19:41:42,727 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>]
+2019-02-09 19:41:42,727 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:42:53,186 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:42:53,186 manage.py <module> DEBUG Starting main...
+2019-02-09 19:43:31,796 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 19:43:31,796 manage.py <module> DEBUG Starting main...
+2019-02-09 19:43:32,097 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>]
+2019-02-09 19:43:32,097 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 19:46:06,859 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:46:16,439 log.py log_response WARNING Not Found: /jaichenchlani
+2019-02-09 19:46:38,532 log.py log_response ERROR Internal Server Error: /user/jaichenchlani/
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 34, in profile
+    return render(request, 'profile.html', {'username': username, 'treasures': treasures})
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 4: 'block'. Looking for one of: endblock.
+2019-02-09 19:47:09,816 log.py log_response WARNING Not Found: /user/jaichenchlani/static/images/fools-gold.jpeg
+2019-02-09 19:47:09,936 log.py log_response WARNING Not Found: /user/jaichenchlani/static/images/gold-nugget.jpeg
+2019-02-09 19:47:20,485 log.py log_response WARNING Not Found: /user/geetuchenchlani/static/images/coffee-can.jpeg
+2019-02-09 19:47:20,489 log.py log_response WARNING Not Found: /user/geetuchenchlani/static/images/arrow-head.jpeg
+2019-02-09 19:47:30,146 views.py detail DEBUG User ID: 2, Owner: geetuchenchlani, Name: Coffee Can, Value: 20.00, Material: tin, Location: Acme, CA
+
+2019-02-09 19:47:30,177 log.py log_response WARNING Not Found: /2/static/images/coffee-can.jpeg
+2019-02-09 19:50:49,629 log.py log_response WARNING Not Found: /user
+2019-02-09 19:50:54,666 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:50:59,400 log.py log_response WARNING Not Found: /user/geetuchenchlani/static/images/coffee-can.jpeg
+2019-02-09 19:50:59,404 log.py log_response WARNING Not Found: /user/geetuchenchlani/static/images/arrow-head.jpeg
+2019-02-09 19:51:03,382 log.py log_response WARNING Not Found: /user/jiachenchlani/static/images/horse-shoe.jpeg
+2019-02-09 19:51:03,387 log.py log_response WARNING Not Found: /user/jiachenchlani/static/images/gold-nugget.jpeg
+2019-02-09 19:52:04,901 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:52:07,010 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:52:23,978 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:53:01,394 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:53:05,583 log.py log_response WARNING Not Found: /user/jaichenchlani/static/images/fools-gold.jpeg
+2019-02-09 19:53:05,696 log.py log_response WARNING Not Found: /user/jaichenchlani/static/images/gold-nugget.jpeg
+2019-02-09 19:54:25,043 log.py log_response WARNING Not Found: /user/geetuchenchlani/static/images/coffee-can.jpeg
+2019-02-09 19:54:25,166 log.py log_response WARNING Not Found: /user/geetuchenchlani/static/images/arrow-head.jpeg
+2019-02-09 19:57:30,194 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:59:22,000 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:59:24,288 views.py detail DEBUG User ID: 2, Owner: geetuchenchlani, Name: Coffee Can, Value: 20.00, Material: tin, Location: Acme, CA
+
+2019-02-09 19:59:24,318 log.py log_response WARNING Not Found: /2/static/images/coffee-can.jpeg
+2019-02-09 19:59:25,604 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 19:59:28,061 views.py detail DEBUG User ID: 2, Owner: geetuchenchlani, Name: Coffee Can, Value: 20.00, Material: tin, Location: Acme, CA
+
+2019-02-09 19:59:28,088 log.py log_response WARNING Not Found: /2/static/images/coffee-can.jpeg
+2019-02-09 19:59:28,761 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:03:45,049 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:03:45,049 manage.py <module> DEBUG Starting main...
+2019-02-09 20:04:20,887 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:04:20,887 manage.py <module> DEBUG Starting main...
+2019-02-09 20:04:36,843 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:04:36,843 manage.py <module> DEBUG Starting main...
+2019-02-09 20:04:52,800 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:04:52,801 manage.py <module> DEBUG Starting main...
+2019-02-09 20:07:49,714 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:07:49,714 manage.py <module> DEBUG Starting main...
+2019-02-09 20:07:58,470 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:07:58,470 manage.py <module> DEBUG Starting main...
+2019-02-09 20:11:35,547 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:11:35,547 manage.py <module> DEBUG Starting main...
+2019-02-09 20:11:38,048 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:11:38,048 manage.py <module> DEBUG Starting main...
+2019-02-09 20:11:45,747 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:11:45,748 manage.py <module> DEBUG Starting main...
+2019-02-09 20:11:46,106 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>, <URLPattern 'login/' [name='login']>]
+2019-02-09 20:11:46,107 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:13:14,140 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:13:14,140 manage.py <module> DEBUG Starting main...
+2019-02-09 20:13:14,441 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>, <URLPattern 'login/' [name='login']>]
+2019-02-09 20:13:14,441 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:13:35,310 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:13:35,319 manage.py <module> DEBUG Starting main...
+2019-02-09 20:13:35,635 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>, <URLPattern 'login/' [name='login']>]
+2019-02-09 20:13:35,636 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:14:07,862 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:14:07,863 manage.py <module> DEBUG Starting main...
+2019-02-09 20:14:08,157 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>, <URLPattern 'login/' [name='login']>]
+2019-02-09 20:14:08,157 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:14:35,206 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:14:35,206 manage.py <module> DEBUG Starting main...
+2019-02-09 20:14:35,503 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>, <URLPattern 'login/' [name='login']>]
+2019-02-09 20:14:35,503 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:14:37,798 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:14:37,799 manage.py <module> DEBUG Starting main...
+2019-02-09 20:14:38,117 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>, <URLPattern 'login/' [name='login']>]
+2019-02-09 20:14:38,117 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:15:10,310 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:15:10,310 manage.py <module> DEBUG Starting main...
+2019-02-09 20:15:10,655 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>, <URLPattern 'login/' [name='login']>]
+2019-02-09 20:15:10,656 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:15:13,979 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:15:13,980 manage.py <module> DEBUG Starting main...
+2019-02-09 20:15:14,294 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>, <URLPattern 'login/' [name='login']>]
+2019-02-09 20:15:14,295 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:16:36,105 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:16:36,106 manage.py <module> DEBUG Starting main...
+2019-02-09 20:16:36,402 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>, <URLPattern 'login/' [name='login']>]
+2019-02-09 20:16:36,402 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:17:46,855 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:17:46,855 manage.py <module> DEBUG Starting main...
+2019-02-09 20:17:47,189 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>, <URLPattern 'login/' [name='login']>]
+2019-02-09 20:17:47,189 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:19:00,697 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:19:00,697 manage.py <module> DEBUG Starting main...
+2019-02-09 20:19:01,053 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>, <URLPattern 'login/' [name='login']>]
+2019-02-09 20:19:01,054 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:22:04,256 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:22:18,019 views.py login_view DEBUG {'username': 'jaichenchlani', 'password': 'sfklsjhdf'}
+2019-02-09 20:22:18,104 views.py login_view ERROR The username and/or password were incorrect.
+2019-02-09 20:22:18,140 log.py log_response ERROR Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view main_app.views.login_view didn't return an HttpResponse object. It returned None instead.
+2019-02-09 20:23:41,054 views.py login_view DEBUG {'username': 'jaichenchlani', 'password': 'geete9974'}
+2019-02-09 20:23:41,173 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:25:50,432 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:25:50,432 manage.py <module> DEBUG Starting main...
+2019-02-09 20:26:43,600 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:26:43,600 manage.py <module> DEBUG Starting main...
+2019-02-09 20:26:48,203 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:26:48,203 manage.py <module> DEBUG Starting main...
+2019-02-09 20:26:53,823 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:26:53,823 manage.py <module> DEBUG Starting main...
+2019-02-09 20:26:57,423 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:26:57,423 manage.py <module> DEBUG Starting main...
+2019-02-09 20:27:02,032 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:27:02,032 manage.py <module> DEBUG Starting main...
+2019-02-09 20:27:02,383 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/'>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>]
+2019-02-09 20:27:02,383 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:28:50,217 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:28:52,016 views.py detail DEBUG User ID: 2, Owner: geetuchenchlani, Name: Coffee Can, Value: 20.00, Material: tin, Location: Acme, CA
+
+2019-02-09 20:28:52,042 log.py log_response WARNING Not Found: /2/static/images/coffee-can.jpeg
+2019-02-09 20:28:53,302 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:28:54,428 log.py log_response WARNING Not Found: /user/geetuchenchlani/static/images/coffee-can.jpeg
+2019-02-09 20:28:54,434 log.py log_response WARNING Not Found: /user/geetuchenchlani/static/images/arrow-head.jpeg
+2019-02-09 20:28:55,441 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:34:14,845 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 16, in index
+    logger.debug(str(render(request,'index.html',{"treasures": treasures})))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+2019-02-09 20:36:53,472 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:36:53,472 manage.py <module> DEBUG Starting main...
+2019-02-09 20:36:53,890 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>]
+2019-02-09 20:36:53,891 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:37:08,133 log.py log_response WARNING Not Found: /user/geetuchenchlani/static/images/coffee-can.jpeg
+2019-02-09 20:37:08,219 log.py log_response WARNING Not Found: /user/geetuchenchlani/static/images/arrow-head.jpeg
+2019-02-09 20:37:09,711 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:37:17,840 log.py log_response WARNING Not Found: /user/jaichenchlani/static/images/fools-gold.jpeg
+2019-02-09 20:37:17,847 log.py log_response WARNING Not Found: /user/jaichenchlani/static/images/gold-nugget.jpeg
+2019-02-09 20:37:20,078 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:37:24,535 views.py login_view DEBUG {'username': 'jaichenchlani', 'password': 'geete9974'}
+2019-02-09 20:37:24,648 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:39:16,871 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:39:16,871 manage.py <module> DEBUG Starting main...
+2019-02-09 20:39:17,274 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'logout/' [name='logout']>]
+2019-02-09 20:39:17,275 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:40:05,083 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:40:05,084 manage.py <module> DEBUG Starting main...
+2019-02-09 20:40:32,432 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:40:32,432 manage.py <module> DEBUG Starting main...
+2019-02-09 20:40:36,030 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:40:36,030 manage.py <module> DEBUG Starting main...
+2019-02-09 20:41:27,132 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:41:27,132 manage.py <module> DEBUG Starting main...
+2019-02-09 20:41:34,958 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:41:34,958 manage.py <module> DEBUG Starting main...
+2019-02-09 14:42:02,033 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:42:02,033 manage.py <module> DEBUG Starting main...
+2019-02-09 20:42:18,822 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:42:18,822 manage.py <module> DEBUG Starting main...
+2019-02-09 20:42:19,138 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 20:42:19,139 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:42:20,794 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:42:20,794 manage.py <module> DEBUG Starting main...
+2019-02-09 20:42:21,105 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 20:42:21,105 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:42:29,415 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:42:29,415 manage.py <module> DEBUG Starting main...
+2019-02-09 20:42:29,698 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 20:42:29,699 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:42:45,737 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:42:45,738 manage.py <module> DEBUG Starting main...
+2019-02-09 20:42:46,025 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 20:42:46,025 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:43:04,823 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:43:04,824 manage.py <module> DEBUG Starting main...
+2019-02-09 20:43:05,146 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 20:43:05,146 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:43:12,233 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:43:12,233 manage.py <module> DEBUG Starting main...
+2019-02-09 20:43:12,517 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 20:43:12,518 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:43:15,073 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:43:15,073 manage.py <module> DEBUG Starting main...
+2019-02-09 20:43:15,313 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 20:43:15,313 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 20:43:48,767 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 20:43:48,767 manage.py <module> DEBUG Starting main...
+2019-02-09 20:43:49,110 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 20:43:49,110 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:43:52,400 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:43:52,400 manage.py <module> DEBUG Starting main...
+2019-02-09 20:43:52,677 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 20:43:52,678 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:44:01,663 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:44:01,664 manage.py <module> DEBUG Starting main...
+2019-02-09 20:44:19,226 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:44:20,822 views.py detail DEBUG User ID: 2, Owner: geetuchenchlani, Name: Coffee Can, Value: 20.00, Material: tin, Location: Acme, CA, Likes: 0
+
+2019-02-09 20:44:20,850 log.py log_response WARNING Not Found: /2/static/images/coffee-can.jpeg
+2019-02-09 20:47:21,224 views.py detail DEBUG User ID: 2, Owner: geetuchenchlani, Name: Coffee Can, Value: 20.00, Material: tin, Location: Acme, CA, Likes: 0
+
+2019-02-09 20:47:21,263 log.py log_response WARNING Not Found: /2/static/images/coffee-can.jpeg
+2019-02-09 20:47:30,413 views.py detail DEBUG User ID: 3, Owner: jiachenchlani, Name: Gold Nuggets, Value: 500.00, Material: gold, Location: Curly's Creek, NM, Likes: 0
+
+2019-02-09 20:47:30,443 log.py log_response WARNING Not Found: /3/static/images/gold-nugget.jpeg
+2019-02-09 20:48:29,756 views.py detail DEBUG User ID: 3, Owner: jiachenchlani, Name: Gold Nuggets, Value: 500.00, Material: gold, Location: Curly's Creek, NM, Likes: 0
+
+2019-02-09 20:48:29,826 log.py log_response ERROR Internal Server Error: /3/
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 22, in detail
+    return render(request,'detail.html', {"treasure": treasure})
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' treasure.img_url' from 'static treasure.img_url'
+2019-02-09 20:50:03,163 views.py detail DEBUG User ID: 3, Owner: jiachenchlani, Name: Gold Nuggets, Value: 500.00, Material: gold, Location: Curly's Creek, NM, Likes: 0
+
+2019-02-09 20:50:03,244 log.py log_response ERROR Internal Server Error: /3/
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 22, in detail
+    return render(request,'detail.html', {"treasure": treasure})
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/contrib/staticfiles/templatetags/staticfiles.py", line 28, in do_static
+    return _do_static(parser, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/templatetags/static.py", line 159, in do_static
+    return StaticNode.handle_token(parser, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/templatetags/static.py", line 133, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '{{' from '{{'
+2019-02-09 20:51:11,539 views.py detail DEBUG User ID: 3, Owner: jiachenchlani, Name: Gold Nuggets, Value: 500.00, Material: gold, Location: Curly's Creek, NM, Likes: 0
+
+2019-02-09 20:51:43,523 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:51:43,678 log.py log_response WARNING Not Found: /images/gold-nugget.jpeg
+2019-02-09 20:51:45,575 views.py detail DEBUG User ID: 3, Owner: jiachenchlani, Name: Gold Nuggets, Value: 500.00, Material: gold, Location: Curly's Creek, NM, Likes: 0
+
+2019-02-09 20:52:21,601 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:52:21,774 log.py log_response WARNING Not Found: /images/gold-nugget.jpeg
+2019-02-09 20:52:23,128 views.py detail DEBUG User ID: 3, Owner: jiachenchlani, Name: Gold Nuggets, Value: 500.00, Material: gold, Location: Curly's Creek, NM, Likes: 0
+
+2019-02-09 20:52:48,069 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:52:48,110 log.py log_response WARNING Not Found: /images/gold-nugget.jpeg
+2019-02-09 20:53:12,945 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:53:12,987 log.py log_response WARNING Not Found: /images/gold-nugget.jpeg
+2019-02-09 20:53:22,875 views.py detail DEBUG User ID: 3, Owner: jiachenchlani, Name: Gold Nuggets, Value: 500.00, Material: gold, Location: Curly's Creek, NM, Likes: 0
+
+2019-02-09 20:54:34,101 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:54:44,713 views.py detail DEBUG User ID: 3, Owner: jiachenchlani, Name: Gold Nuggets, Value: 500.00, Material: gold, Location: Curly's Creek, NM, Likes: 0
+
+2019-02-09 20:55:50,802 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:55:53,537 views.py detail DEBUG User ID: 3, Owner: jiachenchlani, Name: Gold Nuggets, Value: 500.00, Material: gold, Location: Curly's Creek, NM, Likes: 0
+
+2019-02-09 20:55:56,729 log.py log_response WARNING Not Found: /user/jaichenchlani/images/gold-nugget.jpeg
+2019-02-09 20:55:56,734 log.py log_response WARNING Not Found: /user/jaichenchlani/images/fools-gold.jpeg
+2019-02-09 20:56:00,456 log.py log_response WARNING Not Found: /user/jaichenchlani/images/fools-gold.jpeg
+2019-02-09 20:56:00,460 log.py log_response WARNING Not Found: /user/jaichenchlani/images/gold-nugget.jpeg
+2019-02-09 20:57:00,630 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:57:09,608 views.py login_view DEBUG {'username': 'jiachenchlani', 'password': 'geete9974'}
+2019-02-09 20:57:09,736 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:57:17,414 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 20:57:30,270 views.py detail DEBUG User ID: 2, Owner: geetuchenchlani, Name: Coffee Can, Value: 20.00, Material: tin, Location: Acme, CA, Likes: 0
+
+2019-02-09 21:34:08,746 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 21:34:08,747 manage.py <module> DEBUG Starting main...
+2019-02-09 21:34:09,192 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 21:34:09,192 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 21:35:12,529 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 21:35:12,529 manage.py <module> DEBUG Starting main...
+2019-02-09 21:35:12,881 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 21:35:12,882 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 21:37:11,987 views.py detail DEBUG User ID: 2, Owner: geetuchenchlani, Name: Coffee Can, Value: 20.00, Material: tin, Location: Acme, CA, Likes: 0
+
+2019-02-09 21:37:12,168 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff2
+2019-02-09 21:37:12,203 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff
+2019-02-09 21:37:12,236 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.ttf
+2019-02-09 21:37:14,709 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 21:37:14,918 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff2
+2019-02-09 21:37:14,977 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff
+2019-02-09 21:37:14,999 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.ttf
+2019-02-09 15:37:31,313 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 15:37:31,314 manage.py <module> DEBUG Starting main...
+2019-02-09 21:38:19,183 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 21:38:19,183 manage.py <module> DEBUG Starting main...
+2019-02-09 21:38:19,521 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 21:38:19,521 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 21:40:52,657 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 21:40:52,657 manage.py <module> DEBUG Starting main...
+2019-02-09 21:40:53,043 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 21:40:53,043 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 21:41:05,523 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 21:41:05,726 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff2
+2019-02-09 21:41:05,778 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff
+2019-02-09 21:41:05,843 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.ttf
+2019-02-09 21:41:23,801 log.py log_response WARNING Forbidden (CSRF token missing or incorrect.): /like_treasure/
+2019-02-09 21:41:30,524 log.py log_response WARNING Forbidden (CSRF token missing or incorrect.): /like_treasure/
+2019-02-09 21:49:47,456 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 21:49:47,633 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff2
+2019-02-09 21:49:47,683 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff
+2019-02-09 21:49:47,733 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.ttf
+2019-02-09 21:51:58,906 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 21:51:58,906 manage.py <module> DEBUG Starting main...
+2019-02-09 21:51:59,308 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 21:51:59,308 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 21:52:08,916 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 21:52:09,086 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff2
+2019-02-09 21:52:09,127 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff
+2019-02-09 21:52:09,158 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.ttf
+2019-02-09 21:52:11,066 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 21:52:11,246 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff2
+2019-02-09 21:52:11,308 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff
+2019-02-09 21:52:11,333 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.ttf
+2019-02-09 21:52:49,573 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 21:52:49,770 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff2
+2019-02-09 21:52:49,833 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff
+2019-02-09 21:52:49,858 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.ttf
+2019-02-09 15:53:10,887 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 15:53:10,888 manage.py <module> DEBUG Starting main...
+2019-02-09 21:53:11,203 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 21:53:11,203 manage.py <module> DEBUG Starting main...
+2019-02-09 21:53:11,483 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/' [name='detail']>, <URLPattern 'post_url/' [name='post_treasure']>, <URLPattern 'user/<username>/' [name='profile']>, <URLPattern 'login/' [name='login']>, <URLPattern 'logout/' [name='logout']>, <URLPattern 'like_treasure/' [name='like']>]
+2019-02-09 21:53:11,484 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 21:53:13,987 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 21:53:14,171 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff2
+2019-02-09 21:53:14,214 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff
+2019-02-09 21:53:14,267 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.ttf
+2019-02-09 21:53:43,745 views.py detail DEBUG User ID: 9, Owner: jaichenchlani, Name: Silver, Value: 100.00, Material: Chandi, Location: Khandwa, Likes: 2
+
+2019-02-09 21:53:43,930 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff2
+2019-02-09 21:53:43,956 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff
+2019-02-09 21:53:43,976 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.ttf
+2019-02-09 21:54:58,986 views.py detail DEBUG User ID: 9, Owner: jaichenchlani, Name: Silver, Value: 100.00, Material: Chandi, Location: Khandwa, Likes: 6
+
+2019-02-09 21:54:59,167 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff2
+2019-02-09 21:54:59,196 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff
+2019-02-09 21:54:59,244 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.ttf
+2019-02-09 21:55:10,037 views.py detail DEBUG User ID: 4, Owner: jaichenchlani, Name: Fool's Gold, Value: 0.00, Material: pyrite, Location: Fool's Fall, CA, Likes: 3
+
+2019-02-09 21:55:10,211 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff2
+2019-02-09 21:55:10,276 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff
+2019-02-09 21:55:10,293 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.ttf
+2019-02-09 21:55:15,211 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 21:55:15,395 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff2
+2019-02-09 21:55:15,423 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.woff
+2019-02-09 21:55:15,448 log.py log_response WARNING Not Found: /fonts/glyphicons-halflings-regular.ttf

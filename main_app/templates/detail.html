@@ -7,7 +7,7 @@
         <h3 class="panel-title">{{ treasure.name }}</h3>
     </div>
     <div class="treasure-photo-detail">
-        <img src="{{ treasure.img_url }}">
+        <img src="{% static treasure.img_url %}">
     </div>
     <div class="treasure-table">
         <table>
@@ -34,6 +34,15 @@
                     <img src="{% static 'images/locations-icon.png' %}" >
                 </th>
                 <td>Location: {{ treasure.location }}</td>
+            </tr>
+            <tr>
+                <button id ="likes" data-id="{{ treasure.id }}"
+                        class="btn btn-mini btn-danger glyphicon glyphicon-heart"
+                        type="button">
+                    {% if treasure.likes > 0 %}
+                    {{ treasure.likes }}
+                    {% endif %}
+                </button>
             </tr>
         </table>
     </div>
