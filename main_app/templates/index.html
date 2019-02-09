@@ -1,60 +1,21 @@
+{% extends 'base.html' %}
 {% load staticfiles %}
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
-        <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}"/>
-        <title>TreasureGram</title>
-    </head>
-    <body>
-        <nav class="navbar navbar-default navbar-static-top text-center">
-            <a href="/">
-                <img src="{% static 'images/logo.png' %}" alt="TreasureGram">
-            </a>
-        </nav>
-        <main class="container" role="main">
-            <div class="treasure panel panel-default">
-                {% for treasure in treasures %}
-                <div class="panel-heading">
-                    <h2 class="panel-title">{{ treasure.name }}</h2>
-                </div>
-                <div>
-                    <span>
+{% block content %}
+<div class="row">
+    {% for treasure in treasures %}
+        <div class="col-md-4">
+            <a href="/{{treasure.id}}/">
+                <div class="treasure panel panel-default">  
+                    <div class="panel-heading">
+                        <h2 class="panel-title">{{ treasure.name }}</h2>
+                    </div>
                     <div class="treasure-photo">
                         <img src="{{ treasure.img_url }}" height="100">
-                    </div>
-                    </span>     
-                    <table>
-                        <tr>
-                            <th>
-                                <img src="{% static 'images/materials-icon.png' %}" >
-                            </th>
-                            <td>Material: {{ treasure.material }}</td>
-                        </tr>
-                        <tr>
-                            <th>
-                                <img src="{% static 'images/value-icon.png' %}" >
-                            </th>
-                            <td>Value: 
-                                {% if treasure.value > 0 %}
-                                    {{ treasure.value }}
-                                {% else %}
-                                    {{ Unknown }}
-                                {% endif %}
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                <img src="{% static 'images/locations-icon.png' %}" >
-                            </th>
-                                <td>Location: {{ treasure.location }}</td>
-                            </tr>
-                    </table>
+                    </div>    
                 </div>
-                {% endfor %}
-            </div>
-        </main>
-        
-    </body>
-</html>
+            </a>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

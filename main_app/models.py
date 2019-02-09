@@ -11,4 +11,5 @@ class Treasure(models.Model):
 
 
     def __str__(self):
-        return self.name
+        return ("{0},{1}".format(self.name,self.location))
+

@@ -9,7 +9,13 @@ def index(request):
     # logger.debug("Request:{0}".format(request))
     treasures = Treasure.objects.all()
     logger.debug(str(render(request,'index.html',{"treasures": treasures})))
-    return render(request,'index.html',{"treasures": treasures})
+    return render(request,'index.html', {"treasures": treasures})
+
+def detail(request, treasure_id):
+    treasure = Treasure.objects.get(id=treasure_id)
+    logger.debug(treasure)
+    return render(request,'detail.html', {"treasure": treasure})
+
 
 # class Treasure:
 #     def __init__(self, name, value, material, location, img_url):

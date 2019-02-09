@@ -641,3 +641,753 @@ django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 8: 'for'. L
 2019-02-08 07:59:01,614 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
 2019-02-08 07:59:01,615 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
 2019-02-08 08:02:24,941 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-08 11:01:48,773 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 11:01:48,773 manage.py <module> DEBUG Starting main...
+2019-02-08 17:01:49,417 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-08 17:01:49,417 manage.py <module> DEBUG Starting main...
+2019-02-08 17:01:49,696 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-08 17:01:49,697 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-08 17:01:56,385 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 05:25:37,546 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 05:25:37,547 manage.py <module> DEBUG Starting main...
+2019-02-09 11:25:46,006 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 11:25:46,006 manage.py <module> DEBUG Starting main...
+2019-02-09 11:25:46,369 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-09 11:25:46,370 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 11:26:40,655 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 11:26:41,096 log.py log_response WARNING Not Found: /favicon.ico
+2019-02-09 11:38:08,542 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 11:38:11,852 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 11:46:14,217 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 11:50:27,179 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'forloop.counter|divisibleby:'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 11, in index
+    logger.debug(str(render(request,'index.html',{"treasures": treasures})))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 29: 'forloop.counter|divisibleby:', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2019-02-09 11:51:48,455 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'forloop.counter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 11, in index
+    logger.debug(str(render(request,'index.html',{"treasures": treasures})))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 29: 'forloop.counter', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2019-02-09 11:54:05,839 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'forloop.counter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 11, in index
+    logger.debug(str(render(request,'index.html',{"treasures": treasures})))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 29: 'forloop.counter', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2019-02-09 11:57:39,136 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'forloop.counter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 11, in index
+    logger.debug(str(render(request,'index.html',{"treasures": treasures})))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 29: 'forloop.counter', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2019-02-09 12:08:37,495 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'forloop.counter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 11, in index
+    logger.debug(str(render(request,'index.html',{"treasures": treasures})))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 30: 'forloop.counter', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2019-02-09 12:08:58,498 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'forloop.counter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 11, in index
+    logger.debug(str(render(request,'index.html',{"treasures": treasures})))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 30: 'forloop.counter', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2019-02-09 12:11:48,316 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'forloop.counter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 11, in index
+    logger.debug(str(render(request,'index.html',{"treasures": treasures})))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 30: 'forloop.counter', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2019-02-09 12:12:00,493 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'forloop.counter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 11, in index
+    logger.debug(str(render(request,'index.html',{"treasures": treasures})))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 30: 'forloop.counter', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2019-02-09 06:12:08,884 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 06:12:08,885 manage.py <module> DEBUG Starting main...
+2019-02-09 12:12:09,244 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:12:09,244 manage.py <module> DEBUG Starting main...
+2019-02-09 12:12:09,511 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>]
+2019-02-09 12:12:09,511 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:12:12,886 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'forloop.counter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 11, in index
+    logger.debug(str(render(request,'index.html',{"treasures": treasures})))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 30: 'forloop.counter', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2019-02-09 12:12:37,205 log.py log_response ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'forloop.counter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 11, in index
+    logger.debug(str(render(request,'index.html',{"treasures": treasures})))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 29: 'forloop.counter', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2019-02-09 12:13:27,432 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 12:14:12,714 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 12:16:49,862 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:16:49,863 manage.py <module> DEBUG Starting main...
+2019-02-09 12:21:36,129 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:21:36,129 manage.py <module> DEBUG Starting main...
+2019-02-09 12:22:26,084 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:22:26,084 manage.py <module> DEBUG Starting main...
+2019-02-09 12:22:40,006 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:22:40,006 manage.py <module> DEBUG Starting main...
+2019-02-09 12:24:11,316 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:24:11,316 manage.py <module> DEBUG Starting main...
+2019-02-09 12:25:30,228 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:25:30,228 manage.py <module> DEBUG Starting main...
+2019-02-09 12:25:51,316 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:25:51,316 manage.py <module> DEBUG Starting main...
+2019-02-09 12:26:19,610 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:26:19,611 manage.py <module> DEBUG Starting main...
+2019-02-09 12:26:37,632 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:26:37,632 manage.py <module> DEBUG Starting main...
+2019-02-09 12:26:46,365 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:26:46,365 manage.py <module> DEBUG Starting main...
+2019-02-09 12:26:58,200 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:26:58,200 manage.py <module> DEBUG Starting main...
+2019-02-09 12:27:06,904 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:27:06,904 manage.py <module> DEBUG Starting main...
+2019-02-09 12:27:34,176 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:27:34,176 manage.py <module> DEBUG Starting main...
+2019-02-09 12:27:34,527 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '/<treasure_id>'>]
+2019-02-09 12:27:34,527 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:27:45,068 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:27:45,069 manage.py <module> DEBUG Starting main...
+2019-02-09 12:27:45,389 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '/<treasure_id>'>]
+2019-02-09 12:27:45,389 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:27:54,903 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:27:54,904 manage.py <module> DEBUG Starting main...
+2019-02-09 12:27:55,240 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '/<treasure_id>'>]
+2019-02-09 12:27:55,240 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:31:30,190 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:31:30,191 manage.py <module> DEBUG Starting main...
+2019-02-09 12:31:30,539 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '/<treasure_id>'>]
+2019-02-09 12:31:30,539 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:35:01,922 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 12:45:31,294 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 12:48:53,432 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 12:48:58,717 log.py log_response WARNING Not Found: /2/
+2019-02-09 12:49:30,993 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:49:30,994 manage.py <module> DEBUG Starting main...
+2019-02-09 12:49:31,325 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '/<treasure_id>/'>]
+2019-02-09 12:49:31,325 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:49:34,184 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 12:49:35,787 log.py log_response WARNING Not Found: /2/
+2019-02-09 12:50:44,798 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 12:50:46,472 log.py log_response WARNING Not Found: /6/
+2019-02-09 12:55:26,718 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:55:26,719 manage.py <module> DEBUG Starting main...
+2019-02-09 12:55:27,045 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '/<int:treasure_id>/'>]
+2019-02-09 12:55:27,045 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:55:30,301 log.py log_response WARNING Not Found: /6/
+2019-02-09 12:55:41,686 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:55:41,686 manage.py <module> DEBUG Starting main...
+2019-02-09 12:55:41,984 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 12:55:41,985 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:55:44,624 log.py log_response ERROR Internal Server Error: /6/
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 16, in detail
+    return render(request,'detail.html', {"treasures": treasure})
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 20: 'static'. Did you forget to register or load this tag?
+2019-02-09 12:56:45,076 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 12:57:43,006 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:57:43,006 manage.py <module> DEBUG Starting main...
+2019-02-09 12:57:43,293 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 12:57:43,293 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:58:09,039 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 12:58:12,307 views.py detail DEBUG Gold Nugget
+2019-02-09 12:58:22,755 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:58:22,762 manage.py <module> DEBUG Starting main...
+2019-02-09 12:58:23,038 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 12:58:23,038 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:58:27,326 views.py detail DEBUG Horseshoe
+2019-02-09 12:58:35,126 views.py detail DEBUG Fool's Gold
+2019-02-09 12:59:43,753 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 12:59:43,753 manage.py <module> DEBUG Starting main...
+2019-02-09 12:59:44,036 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 12:59:44,036 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 12:59:50,587 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 12:59:53,557 log.py log_response ERROR Internal Server Error: /3/
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 15, in detail
+    treasure = Treasure.Objects.get(id=treasure_id)
+AttributeError: type object 'Treasure' has no attribute 'Objects'
+2019-02-09 13:01:17,223 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:01:17,234 manage.py <module> DEBUG Starting main...
+2019-02-09 13:01:17,537 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 13:01:17,537 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:01:21,472 views.py detail DEBUG Gold Nugget
+2019-02-09 13:02:03,795 views.py detail DEBUG Gold Nuggets
+2019-02-09 13:02:07,257 views.py detail DEBUG Gold Nuggets
+2019-02-09 07:04:09,937 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 07:04:09,938 manage.py <module> DEBUG Starting main...
+2019-02-09 07:06:10,449 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 07:06:10,450 manage.py <module> DEBUG Starting main...
+2019-02-09 13:09:04,014 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 13:09:06,268 views.py detail DEBUG Coffee Can
+2019-02-09 13:09:56,119 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:09:56,119 manage.py <module> DEBUG Starting main...
+2019-02-09 13:09:56,464 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 13:09:56,464 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 07:10:11,753 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 07:10:11,753 manage.py <module> DEBUG Starting main...
+2019-02-09 13:11:09,928 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:11:09,928 manage.py <module> DEBUG Starting main...
+2019-02-09 13:11:10,254 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 13:11:10,255 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:11:16,873 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 07:11:49,568 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 07:11:49,568 manage.py <module> DEBUG Starting main...
+2019-02-09 13:11:49,883 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:11:49,884 manage.py <module> DEBUG Starting main...
+2019-02-09 13:11:50,197 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 13:11:50,197 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:11:55,929 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 13:13:08,823 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:13:08,823 manage.py <module> DEBUG Starting main...
+2019-02-09 13:13:09,095 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 13:13:09,096 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:23:46,906 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:23:46,915 manage.py <module> DEBUG Starting main...
+2019-02-09 13:23:47,248 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 13:23:47,248 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:27:08,639 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:27:08,640 manage.py <module> DEBUG Starting main...
+2019-02-09 07:27:31,580 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 07:27:31,580 manage.py <module> DEBUG Starting main...
+2019-02-09 13:27:41,626 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:27:41,626 manage.py <module> DEBUG Starting main...
+2019-02-09 13:27:41,942 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 13:27:41,942 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 07:27:42,170 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 07:27:42,171 manage.py <module> DEBUG Starting main...
+2019-02-09 13:28:36,053 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 13:28:37,762 views.py detail DEBUG Gold Nuggets,Curly's Creek, NM
+2019-02-09 13:29:38,583 views.py detail DEBUG Gold Nuggets,Curly's Creek, NM
+2019-02-09 13:29:42,617 views.py detail DEBUG Gold Nuggets,Curly's Creek, NM
+2019-02-09 13:30:24,044 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:30:24,057 manage.py <module> DEBUG Starting main...
+2019-02-09 13:30:24,373 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 13:30:24,373 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:31:26,453 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:31:26,453 manage.py <module> DEBUG Starting main...
+2019-02-09 13:31:26,790 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 13:31:26,790 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:33:19,457 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:33:19,457 manage.py <module> DEBUG Starting main...
+2019-02-09 13:33:19,762 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 13:33:19,763 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:33:28,292 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 13:33:29,875 views.py detail DEBUG Coffee Can,Acme, CA
+2019-02-09 13:33:29,928 log.py log_response ERROR Internal Server Error: /2/
+Traceback (most recent call last):
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/views.py", line 17, in detail
+    return render(request,'detail.html', {treasure})
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/backends/django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "/Users/jchenchl/anaconda3/lib/python3.7/site-packages/django/template/context.py", line 270, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than set.
+2019-02-09 13:35:07,371 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:35:07,371 manage.py <module> DEBUG Starting main...
+2019-02-09 13:35:07,709 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 13:35:07,709 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:35:36,856 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 13:35:36,856 manage.py <module> DEBUG Starting main...
+2019-02-09 13:35:37,168 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 13:35:37,168 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 13:35:42,657 views.py detail DEBUG Coffee Can,Acme, CA
+2019-02-09 13:35:42,682 log.py log_response WARNING Not Found: /2/static/images/coffee-can.jpeg
+2019-02-09 13:35:48,691 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 13:35:50,141 views.py detail DEBUG Gold Nuggets,Curly's Creek, NM
+2019-02-09 13:35:50,161 log.py log_response WARNING Not Found: /3/static/images/gold-nugget.jpeg
+2019-02-09 13:36:40,052 views.py detail DEBUG Fool's Gold,Fool's Fall, CA
+2019-02-09 13:36:40,073 log.py log_response WARNING Not Found: /4/static/images/fools-gold.jpeg
+2019-02-09 13:37:07,958 views.py detail DEBUG Arrowhead,Bottom of the Basin, CA
+2019-02-09 13:37:07,980 log.py log_response WARNING Not Found: /5/static/images/arrow-head.jpeg
+2019-02-09 13:37:40,197 log.py log_response WARNING Not Found: /5/static/images/arrow-head.jpeg
+2019-02-09 13:42:21,389 views.py detail DEBUG Arrowhead,Bottom of the Basin, CA
+2019-02-09 13:42:21,408 log.py log_response WARNING Not Found: /5/% static static/images/arrow-head.jpeg %
+2019-02-09 13:42:23,870 views.py detail DEBUG Gold Nuggets,Curly's Creek, NM
+2019-02-09 13:42:23,890 log.py log_response WARNING Not Found: /3/% static images/gold-nugget.jpeg %
+2019-02-09 13:44:03,171 views.py detail DEBUG Coffee Can,Acme, CA
+2019-02-09 13:44:03,191 log.py log_response WARNING Not Found: /2/% static static/images/coffee-can.jpeg %
+2019-02-09 13:44:42,876 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 13:44:42,902 log.py log_response WARNING Not Found: /images/gold-nugget.jpeg
+2019-02-09 13:45:42,982 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 13:46:02,141 views.py detail DEBUG Gold Nuggets,Curly's Creek, NM
+2019-02-09 13:46:02,205 log.py log_response WARNING Not Found: /3/static/images/gold-nugget.jpeg
+2019-02-09 13:46:10,747 views.py detail DEBUG Coffee Can,Acme, CA
+2019-02-09 13:46:10,773 log.py log_response WARNING Not Found: /2/static/images/coffee-can.jpeg
+2019-02-09 14:00:05,464 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 14:00:43,807 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 08:00:57,424 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 08:00:57,424 manage.py <module> DEBUG Starting main...
+2019-02-09 14:00:58,024 config.py <module> INFO Environment Variables:{'loggingLevel': 'high'}
+2019-02-09 14:00:58,025 manage.py <module> DEBUG Starting main...
+2019-02-09 14:00:58,288 urls.py <module> DEBUG URLPatterns:[<URLPattern ''>, <URLPattern '<int:treasure_id>/'>]
+2019-02-09 14:00:58,288 urls.py <module> DEBUG URLPatterns:[<URLResolver <URLPattern list> (admin:admin) 'admin/'>, <URLResolver <module 'main_app.urls' from '/Users/jchenchl/OneDrive - JC Penney/Software/Treasuregram/main_app/urls.py'> (None:None) ''>]
+2019-02-09 14:01:01,172 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 14:08:54,806 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 14:10:50,083 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 14:14:05,689 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 14:14:10,139 views.py detail DEBUG Coffee Can,Acme, CA
+2019-02-09 14:14:10,173 log.py log_response WARNING Not Found: /2/static/images/coffee-can.jpeg
+2019-02-09 14:14:28,503 views.py index DEBUG <HttpResponse status_code=200, "text/html; charset=utf-8">
+2019-02-09 14:14:31,523 views.py detail DEBUG Coffee Can,Acme, CA
+2019-02-09 14:14:31,551 log.py log_response WARNING Not Found: /2/static/images/coffee-can.jpeg
